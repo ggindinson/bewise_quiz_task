@@ -8,7 +8,7 @@ nano .env
 ```
 DB_USER=db_user
 DB_PASSWORD=db_password
-DB_HOST=localhost
+DB_HOST=postgres
 DB_NAME=db_name
 ```
 
