@@ -1,6 +1,3 @@
-# Created by https://t.me/vlasovdev db_utils file | Создано https://t.me/vlasovdev db_utils file
-
-
 from sqlalchemy import URL
 from sqlalchemy.ext.asyncio import (
     AsyncEngine,

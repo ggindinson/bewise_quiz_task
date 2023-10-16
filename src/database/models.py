@@ -1,5 +1,5 @@
 import datetime
-from typing import Annotated, Any, Dict, List, Optional, Sequence, Tuple, Type, TypeVar
+from typing import Annotated, Any, Dict, List, Sequence, Type, TypeVar
 
 from sqlalchemy import BigInteger, DateTime, select
 from sqlalchemy.dialects.postgresql import insert
