@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "task-bewise"
+version = "0.1.0"
+description = ""
+authors = ["ggindinson <grisha.gindinson@gmail.com>"]
+readme = "README.md"
+packages = [{include = "task_bewise"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.103.2"
+sqlalchemy = "^2.0.22"
+loguru = "^0.7.2"
+pydantic = "^2.4.2"
+environs = "^9.5.0"
+aiohttp = "^3.8.6"
+uvicorn = "^0.23.2"
+asyncpg = "^0.28.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
